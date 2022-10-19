@@ -21,11 +21,15 @@ builder.Services.AddRazorPages();
 var AllowSomeStuff = "_AllowSomeStuff";
 builder.Services.AddCors(options =>
 {
+  
     options.AddPolicy(name: AllowSomeStuff, builder => {
         builder.AllowAnyOrigin()
                .AllowAnyHeader()
-               .AllowAnyMethod();
+               .AllowAnyMethod()
+               .AllowCredentials();
+              
     });
+   
 });
 
 AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
