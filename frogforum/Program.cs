@@ -27,6 +27,7 @@ builder.Services.AddEntityFrameworkNpgsql().AddDbContext<dbContext>(opt =>
 var app = builder.Build();
 app.UseCors(AllowSomeStuff);
 builder.Services.AddRazorPages();
+     
             app.UseStaticFiles();
 
             app.UseRouting();
