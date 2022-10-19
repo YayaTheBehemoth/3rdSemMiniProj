@@ -29,7 +29,7 @@ builder.Services.AddCors(options =>
 });
 
 AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
-// Tilføj DbContext factory som service.
+
 //dumb practices for dumb people like me :) dont put ur constring in ur code
 builder.Services.AddEntityFrameworkNpgsql().AddDbContext<dbContext>(opt =>
         opt.UseNpgsql("Host=ella.db.elephantsql.com;Database=qgcutkgu;Username=qgcutkgu;Password=DVV-YnGW4UxuLtH-sdDJvFsAa1fxigjF"));
