@@ -1,0 +1,86 @@
+﻿@page "/post/{id}"
+
+@using client.Service;
+@using shared.Models;
+@inject HttpService apiService
+
+<PageTitle>FUCKBLAZOR</PageTitle>
+
+<style>
+div.contents {
+  background-color: #f2f0eb;
+  width: 600px;
+  border: 2px solid #452d3d;
+  padding: 10px;
+  margin-top: 20px;
+}
+</style>
+
+@if (Post == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+
+{   
+    <div class="contents">
+        <h4>@Post.Title</h4>
+        <p><strong>Auhtor: @Post.Author, Likes: @Post.Likes, Dislikes: @Post.Dislikes</strong></p>
+        <p>posted on: @Post.Date</p>
+        <p>@Post.Content</p>
+    </div>
+
+    <div class="contents">
+    <h4>Comments</h4>
+    <table>
+        <tr>
+            <th>User</th>
+            <th>Comment</th>
+            <th colspan="3">Votes</th>
+        </tr>
+        @foreach (var comment in comments)
+        {
+            <tr>
+                <td>@comment.Author</td>
+                <td>@comment.Content</td>
+                <td>@comment.Likes</td>
+                <td>@comment.Dislikes</td>
+                <td>Posted on @comment.Date</td>
+                <td><button @onclick="() => Upvote(comment.CommentId)">Upvote</button></td>
+                <td><button @onclick="() => Downvote(comment.CommentId)">Downvote</button></td>
+            </tr>
+        }
+    </table>
+    </div>
+
+
+    <CreateComment PostId=@PostId></CreateComment>
+  
+}
+
+@code {
+    private Comment[] comments; 
+    [Parameter]
+    public string Id { get; set; }
+    public int PostId { get { return int.Parse(Id); } }
+
+    public Post Post { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        Post = await apiService.GetPost(PostId);
+        comments = await apiService.GetComments(PostId);
+        
+    }
+    private  void Upvote(int id)
+    {
+        apiService.likeComment(id);
+    }
+
+    private void Downvote(int id)
+    {
+        apiService.dislikeComment(id);
+    }
+
+  
+}

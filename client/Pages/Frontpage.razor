@@ -1,0 +1,96 @@
+﻿@inherits LayoutComponentBase
+
+@using client.Service;
+@using shared.Models;
+
+@inject HttpService apiService
+
+@using Microsoft.Extensions.Configuration
+@inject IConfiguration Configuration
+
+
+@if (posts == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+      <h4><button @onclick="() => openInput()">want to hate on blazor too?</button></h4>
+      if (isOpen == false){
+
+      }else 
+      {  
+         <input placeholder="Author" type="input"  @bind-value="postData.Author"/>
+         <input placeholder="Title" type="input"  @bind-value="postData.Title"/>
+         <input placeholder="Content" type="input"  @bind-value="postData.Content"/> 
+         <button @onclick="() => postPost(postData)">FULL SEND</button>
+        
+      }
+    <table>
+        <tr>
+            <th>Title</th>
+            <th>Content</th>
+            <th colspan="3">Votes</th>
+        </tr>
+        @foreach (var item in posts)
+        {
+            <tr>
+                <!-- 
+                    These "a href" links will match the route in the page 'PostItem.razor'.
+                    The route is defined as "/post/{id}" and the id is the post id.
+                -->
+                <td><a href="/post/@item.PostId">@item.Title</a></td>
+                <td>@item.Content</td>
+                <td>@item.Likes</td>
+                <td>@item.Dislikes</td>
+                
+                <td><button @onclick="() => like(item.PostId)">B)</button></td>
+                <td><button @onclick="() => dislike(item.PostId)">B(</button></td>
+            
+            </tr>
+        }
+    </table>
+
+    <br/>
+}
+
+@code {
+    private Post[] posts;
+
+    private PostData postData = new PostData();
+    
+    private bool isOpen = false; 
+
+    protected override async Task OnInitializedAsync()
+    {
+      posts =  await apiService.GetPosts();
+    }
+
+     private  void postPost(PostData post)
+    {
+      apiService.postPost(post);
+      openInput();
+    }
+    
+    private  void like(int id)
+    {
+      apiService.likePost(id);
+    }
+
+      private  void dislike(int id)
+    {
+      apiService.dislikePost(id);
+    }
+
+      private void openInput()
+    {
+      if (isOpen == false){
+          isOpen = true;
+      }
+      else {
+          isOpen = false;
+      }
+    }
+
+  
+}
