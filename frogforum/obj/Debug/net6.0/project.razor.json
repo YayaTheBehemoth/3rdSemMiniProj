@@ -4741,55 +4741,35 @@
         }
       },
       {
-        "HashCode": 1154446064,
+        "HashCode": -556032201,
         "Kind": "Components.Component",
-        "Name": "client.Shared.SurveyPrompt",
+        "Name": "client.App",
         "AssemblyName": "client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
+            "TagName": "App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "client.Shared.SurveyPrompt"
+          "Common.TypeName": "client.App"
         }
       },
       {
-        "HashCode": 727583752,
+        "HashCode": -2044095038,
         "Kind": "Components.Component",
-        "Name": "client.Shared.SurveyPrompt",
+        "Name": "client.App",
         "AssemblyName": "client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "client.Shared.SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
+            "TagName": "client.App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "client.Shared.SurveyPrompt",
+          "Common.TypeName": "client.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -4890,6 +4870,59 @@
         }
       },
       {
+        "HashCode": 1154446064,
+        "Kind": "Components.Component",
+        "Name": "client.Shared.SurveyPrompt",
+        "AssemblyName": "client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "client.Shared.SurveyPrompt"
+        }
+      },
+      {
+        "HashCode": 727583752,
+        "Kind": "Components.Component",
+        "Name": "client.Shared.SurveyPrompt",
+        "AssemblyName": "client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "client.Shared.SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "client.Shared.SurveyPrompt",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": -982265025,
         "Kind": "Components.Component",
         "Name": "client.Shared.NavMenu",
@@ -4919,39 +4952,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "client.Shared.NavMenu",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -556032201,
-        "Kind": "Components.Component",
-        "Name": "client.App",
-        "AssemblyName": "client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "client.App"
-        }
-      },
-      {
-        "HashCode": -2044095038,
-        "Kind": "Components.Component",
-        "Name": "client.App",
-        "AssemblyName": "client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "client.App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "client.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },

@@ -58,13 +58,9 @@
 /Users/placeholder/Desktop/frogforumm/frogforum/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
 /Users/placeholder/Desktop/frogforumm/frogforum/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.Design.dll
 /Users/placeholder/Desktop/frogforumm/frogforum/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
-/Users/placeholder/Desktop/frogforumm/frogforum/bin/Debug/net6.0/Microsoft.OpenApi.dll
 /Users/placeholder/Desktop/frogforumm/frogforum/bin/Debug/net6.0/Npgsql.dll
 /Users/placeholder/Desktop/frogforumm/frogforum/bin/Debug/net6.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
 /Users/placeholder/Desktop/frogforumm/frogforum/bin/Debug/net6.0/Npgsql.EntityFrameworkCore.PostgreSQL.Design.dll
-/Users/placeholder/Desktop/frogforumm/frogforum/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
-/Users/placeholder/Desktop/frogforumm/frogforum/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
-/Users/placeholder/Desktop/frogforumm/frogforum/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
 /Users/placeholder/Desktop/frogforumm/frogforum/bin/Debug/net6.0/shared.dll
 /Users/placeholder/Desktop/frogforumm/frogforum/bin/Debug/net6.0/shared.pdb
 /Users/placeholder/Desktop/frogforumm/frogforum/obj/Debug/net6.0/frogforum.csproj.AssemblyReference.cache
@@ -72,7 +68,6 @@
 /Users/placeholder/Desktop/frogforumm/frogforum/obj/Debug/net6.0/frogforum.AssemblyInfoInputs.cache
 /Users/placeholder/Desktop/frogforumm/frogforum/obj/Debug/net6.0/frogforum.AssemblyInfo.cs
 /Users/placeholder/Desktop/frogforumm/frogforum/obj/Debug/net6.0/frogforum.csproj.CoreCompileInputs.cache
-/Users/placeholder/Desktop/frogforumm/frogforum/obj/Debug/net6.0/frogforum.MvcApplicationPartsAssemblyInfo.cs
 /Users/placeholder/Desktop/frogforumm/frogforum/obj/Debug/net6.0/frogforum.MvcApplicationPartsAssemblyInfo.cache
 /Users/placeholder/Desktop/frogforumm/frogforum/obj/Debug/net6.0/staticwebassets.build.json
 /Users/placeholder/Desktop/frogforumm/frogforum/obj/Debug/net6.0/staticwebassets.development.json

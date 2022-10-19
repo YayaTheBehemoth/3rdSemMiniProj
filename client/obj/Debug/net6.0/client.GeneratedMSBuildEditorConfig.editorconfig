@@ -34,6 +34,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2luZ2xlcG9zdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/placeholder/Desktop/frogforumm/client/Shared/CreateComment.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0NyZWF0ZUNvbW1lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/placeholder/Desktop/frogforumm/client/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL1N1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 

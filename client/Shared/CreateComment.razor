@@ -1,0 +1,31 @@
+﻿@using client.Service;
+@using shared.Models;
+@inject HttpService apiService
+
+<div>
+    <br/>
+    <h3>Write a comment</h3>
+    <input placeholder="Author" type="input" @bind-value="comment.Author"/>
+    <input placeholder="Content" type="input" @bind-value="comment.Content"/>
+   
+     <button @onclick="() => PostNewComment(comment)">FULL SEND</button>
+</div>
+
+@code {
+    private CommentData comment = new CommentData();
+
+ 
+    [Parameter]
+    public int PostId { get; set; }
+    
+    private void PostNewComment(CommentData comment)
+    {
+        if (comment.Content == null)
+        {
+            return;
+        }
+       comment.Post_Id = PostId;
+       apiService.postComment(comment); 
+       
+    }
+}

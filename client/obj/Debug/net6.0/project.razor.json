@@ -190,55 +190,35 @@
         }
       },
       {
-        "HashCode": 1154446064,
+        "HashCode": -556032201,
         "Kind": "Components.Component",
-        "Name": "client.Shared.SurveyPrompt",
+        "Name": "client.App",
         "AssemblyName": "client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
+            "TagName": "App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "client.Shared.SurveyPrompt"
+          "Common.TypeName": "client.App"
         }
       },
       {
-        "HashCode": 727583752,
+        "HashCode": -2044095038,
         "Kind": "Components.Component",
-        "Name": "client.Shared.SurveyPrompt",
+        "Name": "client.App",
         "AssemblyName": "client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "client.Shared.SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
+            "TagName": "client.App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "client.Shared.SurveyPrompt",
+          "Common.TypeName": "client.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -372,35 +352,108 @@
         }
       },
       {
-        "HashCode": -556032201,
+        "HashCode": 1154446064,
         "Kind": "Components.Component",
-        "Name": "client.App",
+        "Name": "client.Shared.SurveyPrompt",
         "AssemblyName": "client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "App"
+            "TagName": "SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "client.App"
+          "Common.TypeName": "client.Shared.SurveyPrompt"
         }
       },
       {
-        "HashCode": -2044095038,
+        "HashCode": 727583752,
         "Kind": "Components.Component",
-        "Name": "client.App",
+        "Name": "client.Shared.SurveyPrompt",
         "AssemblyName": "client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "client.App"
+            "TagName": "client.Shared.SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "client.App",
+          "Common.TypeName": "client.Shared.SurveyPrompt",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -594424216,
+        "Kind": "Components.Component",
+        "Name": "client.Shared.CreateComment",
+        "AssemblyName": "client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "CreateComment"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "PostId",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "PostId"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "client.Shared.CreateComment"
+        }
+      },
+      {
+        "HashCode": 834586996,
+        "Kind": "Components.Component",
+        "Name": "client.Shared.CreateComment",
+        "AssemblyName": "client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "client.Shared.CreateComment"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "PostId",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "PostId"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "client.Shared.CreateComment",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -13754,6 +13807,11 @@
     {
       "FilePath": "/Users/placeholder/Desktop/frogforumm/client/Pages/Index.razor",
       "TargetPath": "Pages\\Index.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/Users/placeholder/Desktop/frogforumm/client/Shared/CreateComment.razor",
+      "TargetPath": "Shared\\CreateComment.razor",
       "FileKind": "component"
     },
     {
