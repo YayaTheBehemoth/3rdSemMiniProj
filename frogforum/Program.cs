@@ -1,13 +1,22 @@
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.ResponseCompression;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 using server.Service;
 using DBContext;
 using Npgsql;
 using Microsoft.EntityFrameworkCore;
 using shared.Models;
+using client;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddTransient<Forumservice>();
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
+
 // giga shoutout to my teacher for teaching me the boilerplate ways
 var AllowSomeStuff = "_AllowSomeStuff";
 builder.Services.AddCors(options =>
@@ -34,11 +43,14 @@ builder.Services.AddRazorPages();
 
             app.UseEndpoints(endpoints =>
             {
+                endpoints.MapBlazorHub();
                 endpoints.MapRazorPages();
                 endpoints.MapControllers();
                 endpoints.MapFallbackToFile("index.html");
             });
-
+         app.MapBlazorHub();
+       
+        
 app.UseHttpsRedirection();
 
 //GET 

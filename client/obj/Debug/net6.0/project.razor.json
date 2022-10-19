@@ -1,5 +1,5 @@
 {
-  "FilePath": "/Users/placeholder/Desktop/client/client.csproj",
+  "FilePath": "/Users/placeholder/Desktop/frogforumm/client/client.csproj",
   "Configuration": {
     "ConfigurationName": "Default",
     "LanguageVersion": "6.0",
@@ -37,6 +37,188 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "client.App",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -537517448,
+        "Kind": "Components.Component",
+        "Name": "client.Pages.Frontpage",
+        "AssemblyName": "client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Frontpage"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Body",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Body",
+              "Components.ChildContent": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "client.Pages.Frontpage"
+        }
+      },
+      {
+        "HashCode": -1405551897,
+        "Kind": "Components.Component",
+        "Name": "client.Pages.Frontpage",
+        "AssemblyName": "client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "client.Pages.Frontpage"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Body",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Body",
+              "Components.ChildContent": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "client.Pages.Frontpage",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1227034987,
+        "Kind": "Components.ChildContent",
+        "Name": "client.Pages.Frontpage.Body",
+        "AssemblyName": "client",
+        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Body",
+            "ParentTag": "Frontpage"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "client.Pages.Frontpage.Body",
+          "Components.IsSpecialKind": "Components.ChildContent"
+        }
+      },
+      {
+        "HashCode": -1353894232,
+        "Kind": "Components.ChildContent",
+        "Name": "client.Pages.Frontpage.Body",
+        "AssemblyName": "client",
+        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Body",
+            "ParentTag": "client.Pages.Frontpage"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "client.Pages.Frontpage.Body",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1539383858,
+        "Kind": "Components.Component",
+        "Name": "client.Pages.Index",
+        "AssemblyName": "client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "client.Pages.Index"
+        }
+      },
+      {
+        "HashCode": -1079587425,
+        "Kind": "Components.Component",
+        "Name": "client.Pages.Index",
+        "AssemblyName": "client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "client.Pages.Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "client.Pages.Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1482362448,
+        "Kind": "Components.Component",
+        "Name": "client.Pages.Singlepost",
+        "AssemblyName": "client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Singlepost"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Id"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "client.Pages.Singlepost"
+        }
+      },
+      {
+        "HashCode": 143149267,
+        "Kind": "Components.Component",
+        "Name": "client.Pages.Singlepost",
+        "AssemblyName": "client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "client.Pages.Singlepost"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Id"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "client.Pages.Singlepost",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -219,188 +401,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "client.Shared.NavMenu",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -537517448,
-        "Kind": "Components.Component",
-        "Name": "client.Pages.Frontpage",
-        "AssemblyName": "client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Frontpage"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Body",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
-            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
-            "Metadata": {
-              "Common.PropertyName": "Body",
-              "Components.ChildContent": "True"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "client.Pages.Frontpage"
-        }
-      },
-      {
-        "HashCode": -1405551897,
-        "Kind": "Components.Component",
-        "Name": "client.Pages.Frontpage",
-        "AssemblyName": "client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "client.Pages.Frontpage"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Body",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
-            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
-            "Metadata": {
-              "Common.PropertyName": "Body",
-              "Components.ChildContent": "True"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "client.Pages.Frontpage",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -1227034987,
-        "Kind": "Components.ChildContent",
-        "Name": "client.Pages.Frontpage.Body",
-        "AssemblyName": "client",
-        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Body",
-            "ParentTag": "Frontpage"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.None",
-          "Common.TypeName": "client.Pages.Frontpage.Body",
-          "Components.IsSpecialKind": "Components.ChildContent"
-        }
-      },
-      {
-        "HashCode": -1353894232,
-        "Kind": "Components.ChildContent",
-        "Name": "client.Pages.Frontpage.Body",
-        "AssemblyName": "client",
-        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Body",
-            "ParentTag": "client.Pages.Frontpage"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.None",
-          "Common.TypeName": "client.Pages.Frontpage.Body",
-          "Components.IsSpecialKind": "Components.ChildContent",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1482362448,
-        "Kind": "Components.Component",
-        "Name": "client.Pages.Singlepost",
-        "AssemblyName": "client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Singlepost"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Id",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Id"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "client.Pages.Singlepost"
-        }
-      },
-      {
-        "HashCode": 143149267,
-        "Kind": "Components.Component",
-        "Name": "client.Pages.Singlepost",
-        "AssemblyName": "client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "client.Pages.Singlepost"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Id",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Id"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "client.Pages.Singlepost",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -1539383858,
-        "Kind": "Components.Component",
-        "Name": "client.Pages.Index",
-        "AssemblyName": "client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "client.Pages.Index"
-        }
-      },
-      {
-        "HashCode": -1079587425,
-        "Kind": "Components.Component",
-        "Name": "client.Pages.Index",
-        "AssemblyName": "client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "client.Pages.Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "client.Pages.Index",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -13722,43 +13722,43 @@
   "RootNamespace": "client",
   "Documents": [
     {
-      "FilePath": "/Users/placeholder/Desktop/client/Shared/MainLayout.razor",
-      "TargetPath": "Shared\\MainLayout.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/Users/placeholder/Desktop/client/Pages/Frontpage.razor",
-      "TargetPath": "Pages\\Frontpage.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/Users/placeholder/Desktop/client/App.razor",
-      "TargetPath": "App.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/Users/placeholder/Desktop/client/Shared/SurveyPrompt.razor",
-      "TargetPath": "Shared\\SurveyPrompt.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/Users/placeholder/Desktop/client/Shared/NavMenu.razor",
-      "TargetPath": "Shared\\NavMenu.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/Users/placeholder/Desktop/client/_Imports.razor",
+      "FilePath": "/Users/placeholder/Desktop/frogforumm/client/_Imports.razor",
       "TargetPath": "_Imports.razor",
       "FileKind": "componentImport"
     },
     {
-      "FilePath": "/Users/placeholder/Desktop/client/Pages/Singlepost.razor",
-      "TargetPath": "Pages\\Singlepost.razor",
+      "FilePath": "/Users/placeholder/Desktop/frogforumm/client/Shared/SurveyPrompt.razor",
+      "TargetPath": "Shared\\SurveyPrompt.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "/Users/placeholder/Desktop/client/Pages/Index.razor",
+      "FilePath": "/Users/placeholder/Desktop/frogforumm/client/Shared/MainLayout.razor",
+      "TargetPath": "Shared\\MainLayout.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/Users/placeholder/Desktop/frogforumm/client/Shared/NavMenu.razor",
+      "TargetPath": "Shared\\NavMenu.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/Users/placeholder/Desktop/frogforumm/client/App.razor",
+      "TargetPath": "App.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/Users/placeholder/Desktop/frogforumm/client/Pages/Frontpage.razor",
+      "TargetPath": "Pages\\Frontpage.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/Users/placeholder/Desktop/frogforumm/client/Pages/Index.razor",
       "TargetPath": "Pages\\Index.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/Users/placeholder/Desktop/frogforumm/client/Pages/Singlepost.razor",
+      "TargetPath": "Pages\\Singlepost.razor",
       "FileKind": "component"
     }
   ],
