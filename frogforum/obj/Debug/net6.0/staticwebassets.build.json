@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ycq2+v6F1ZeWB659UjewYSxyIQ6TTkFuGAFYnDKe2DQ=",
+  "Hash": "mSMWewZHQgpJ2yXcIsvzXg1iWzxEDaJSPIxTI8QSIzc=",
   "Source": "frogforum",
   "BasePath": "_content/frogforum",
   "Mode": "Default",
@@ -6897,40 +6897,6 @@
       "OriginalItemSpec": "/Users/placeholder/Desktop/frogforumm/client/obj/Debug/net6.0/scopedcss/bundle/client.styles.css"
     },
     {
-      "Identity": "/Users/placeholder/Desktop/frogforumm/client/obj/Debug/net6.0/service-worker-assets.js.build",
-      "SourceId": "client",
-      "SourceType": "Project",
-      "ContentRoot": "/Users/placeholder/Desktop/frogforumm/client/bin/Debug/net6.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "service-worker-assets.js",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "BlazorServiceWorker",
-      "AssetTraitValue": "ServiceWorkerManifest",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "obj/Debug/net6.0/service-worker-assets.js.build"
-    },
-    {
-      "Identity": "/Users/placeholder/Desktop/frogforumm/client/obj/Debug/net6.0/service-worker/service-worker.js",
-      "SourceId": "client",
-      "SourceType": "Project",
-      "ContentRoot": "/Users/placeholder/Desktop/frogforumm/client/obj/Debug/net6.0/service-worker/",
-      "BasePath": "/",
-      "RelativePath": "service-worker.js",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "BlazorServiceWorker",
-      "AssetTraitValue": "ServiceWorkerJs",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "wwwroot/service-worker.js"
-    },
-    {
       "Identity": "/Users/placeholder/Desktop/frogforumm/client/wwwroot/appsettings.Development.json",
       "SourceId": "client",
       "SourceType": "Project",
@@ -7218,23 +7184,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/index.html"
-    },
-    {
-      "Identity": "/Users/placeholder/Desktop/frogforumm/client/wwwroot/manifest.json",
-      "SourceId": "client",
-      "SourceType": "Project",
-      "ContentRoot": "/Users/placeholder/Desktop/frogforumm/client/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "manifest.json",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/manifest.json"
     }
   ]
 }

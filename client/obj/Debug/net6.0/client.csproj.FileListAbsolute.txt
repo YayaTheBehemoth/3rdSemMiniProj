@@ -821,7 +821,3 @@
 /Users/placeholder/Desktop/frogforumm/client/obj/Debug/net6.0/refint/client.dll
 /Users/placeholder/Desktop/frogforumm/client/obj/Debug/net6.0/client.pdb
 /Users/placeholder/Desktop/frogforumm/client/obj/Debug/net6.0/ref/client.dll
-/Users/placeholder/Desktop/frogforumm/client/bin/Debug/net6.0/wwwroot/service-worker-assets.js
-/Users/placeholder/Desktop/frogforumm/client/bin/Debug/net6.0/wwwroot/service-worker.js
-/Users/placeholder/Desktop/frogforumm/client/obj/Debug/net6.0/service-worker/service-worker.js
-/Users/placeholder/Desktop/frogforumm/client/obj/Debug/net6.0/service-worker-assets.js.build
