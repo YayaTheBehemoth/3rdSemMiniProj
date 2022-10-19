@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Vta/Gbco7ZlG9zNIin3Ncv1J5BTNhWwaAHpIdWG+MyTdrkrh7K+/abtvfLUYDkRWOdLKqaGD+NWzX9LY6Zlgow==",
+  "dgSpecHash": "OAtVqJWkW8FbayllX1ST4N3S0vlkC8eJ7UjICtX+104w7v1zDz8RmKTwejwYfBILnxTCiBNvWi5KwxLP7KjJJw==",
   "success": true,
   "projectFilePath": "/Users/placeholder/Desktop/frogforumm/client/client.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,7 @@
     "/Users/placeholder/.nuget/packages/microsoft.aspnetcore.components.forms/6.0.8/microsoft.aspnetcore.components.forms.6.0.8.nupkg.sha512",
     "/Users/placeholder/.nuget/packages/microsoft.aspnetcore.components.web/6.0.8/microsoft.aspnetcore.components.web.6.0.8.nupkg.sha512",
     "/Users/placeholder/.nuget/packages/microsoft.aspnetcore.components.webassembly/6.0.8/microsoft.aspnetcore.components.webassembly.6.0.8.nupkg.sha512",
+    "/Users/placeholder/.nuget/packages/microsoft.aspnetcore.components.webassembly.devserver/6.0.8/microsoft.aspnetcore.components.webassembly.devserver.6.0.8.nupkg.sha512",
     "/Users/placeholder/.nuget/packages/microsoft.aspnetcore.metadata/6.0.8/microsoft.aspnetcore.metadata.6.0.8.nupkg.sha512",
     "/Users/placeholder/.nuget/packages/microsoft.extensions.configuration/6.0.0/microsoft.extensions.configuration.6.0.0.nupkg.sha512",
     "/Users/placeholder/.nuget/packages/microsoft.extensions.configuration.abstractions/6.0.0/microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",

@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "frogforum", "frogforum\frogforum.csproj", "{CC871DAD-6E18-4AFD-B86A-A5DBF6048930}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "client", "client\client.csproj", "{56C5BC7F-A0D5-40CA-AA09-EBEAC9A162D8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{CC871DAD-6E18-4AFD-B86A-A5DBF6048930}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC871DAD-6E18-4AFD-B86A-A5DBF6048930}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC871DAD-6E18-4AFD-B86A-A5DBF6048930}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56C5BC7F-A0D5-40CA-AA09-EBEAC9A162D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56C5BC7F-A0D5-40CA-AA09-EBEAC9A162D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56C5BC7F-A0D5-40CA-AA09-EBEAC9A162D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56C5BC7F-A0D5-40CA-AA09-EBEAC9A162D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

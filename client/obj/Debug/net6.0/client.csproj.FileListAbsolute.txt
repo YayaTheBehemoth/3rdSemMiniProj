@@ -1,9 +1,3 @@
-/Users/placeholder/Desktop/frogforumm/client/obj/Debug/net6.0/client.csproj.AssemblyReference.cache
-/Users/placeholder/Desktop/frogforumm/client/obj/Debug/net6.0/client.GeneratedMSBuildEditorConfig.editorconfig
-/Users/placeholder/Desktop/frogforumm/client/obj/Debug/net6.0/client.AssemblyInfoInputs.cache
-/Users/placeholder/Desktop/frogforumm/client/obj/Debug/net6.0/client.AssemblyInfo.cs
-/Users/placeholder/Desktop/frogforumm/client/obj/Debug/net6.0/client.csproj.CoreCompileInputs.cache
-/Users/placeholder/Desktop/frogforumm/client/obj/Debug/net6.0/client.MvcApplicationPartsAssemblyInfo.cache
 /Users/placeholder/Desktop/frogforumm/client/bin/Debug/net6.0/wwwroot/_framework/blazor.boot.json
 /Users/placeholder/Desktop/frogforumm/client/bin/Debug/net6.0/wwwroot/_framework/blazor.webassembly.js
 /Users/placeholder/Desktop/frogforumm/client/bin/Debug/net6.0/wwwroot/_framework/client.dll
@@ -608,6 +602,12 @@
 /Users/placeholder/Desktop/frogforumm/client/bin/Debug/net6.0/icudt_no_CJK.dat
 /Users/placeholder/Desktop/frogforumm/client/bin/Debug/net6.0/shared.dll
 /Users/placeholder/Desktop/frogforumm/client/bin/Debug/net6.0/shared.pdb
+/Users/placeholder/Desktop/frogforumm/client/obj/Debug/net6.0/client.csproj.AssemblyReference.cache
+/Users/placeholder/Desktop/frogforumm/client/obj/Debug/net6.0/client.GeneratedMSBuildEditorConfig.editorconfig
+/Users/placeholder/Desktop/frogforumm/client/obj/Debug/net6.0/client.AssemblyInfoInputs.cache
+/Users/placeholder/Desktop/frogforumm/client/obj/Debug/net6.0/client.AssemblyInfo.cs
+/Users/placeholder/Desktop/frogforumm/client/obj/Debug/net6.0/client.csproj.CoreCompileInputs.cache
+/Users/placeholder/Desktop/frogforumm/client/obj/Debug/net6.0/client.MvcApplicationPartsAssemblyInfo.cache
 /Users/placeholder/Desktop/frogforumm/client/obj/Debug/net6.0/build-gz/iK21cMlU.gz
 /Users/placeholder/Desktop/frogforumm/client/obj/Debug/net6.0/build-gz/DH++kF4o.gz
 /Users/placeholder/Desktop/frogforumm/client/obj/Debug/net6.0/build-gz/BqRMAxFu.gz
