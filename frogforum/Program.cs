@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore;
 using shared.Models;
 using client;
 var builder = WebApplication.CreateBuilder(args);
-
+builder.Services.AddSignalR();
 builder.Services.AddTransient<Forumservice>();
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
@@ -43,14 +43,14 @@ builder.Services.AddRazorPages();
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapBlazorHub();
+                
                 endpoints.MapRazorPages();
                 endpoints.MapControllers();
                 endpoints.MapFallbackToFile("index.html");
             });
-         app.MapBlazorHub();
+    
        
-        
+app.UseBlazorFrameworkFiles(); 
 app.UseHttpsRedirection();
 
 //GET 
