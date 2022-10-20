@@ -24,50 +24,52 @@ namespace client.Service;
 
     public async Task<Post> GetPost(int id)
     {
-        string url = $"{baseAPI}/api/post/{id}/";
+        string url = $"api/post/{id}/";
+        //string url = $"{baseAPI}/api/post/{id}/";
         return await http.GetFromJsonAsync<Post>(url);
     }
 
      public async Task<Comment[]> GetComments(int id)
     {
-        string url = $"{baseAPI}/api/comment/{id}/";
+        string url = $"api/comment/{id}/";
+        //string url = $"{baseAPI}/api/comment/{id}/";
         return await http.GetFromJsonAsync<Comment[]>(url);
     }
     
     //POST
        public async void postPost(PostData post)
-    {
-        string url = $"{baseAPI}/api/post/";
+    {   string url = "api/post/";
+        //string url = $"{baseAPI}/api/post/";
          await http.PostAsJsonAsync(url, post);
     }
 
       public async void postComment(CommentData comment)
     {
-        string url = $"{baseAPI}/api/comment";
+        string url = "api/comment";
         await http.PostAsJsonAsync(url, comment);
     }
     
     //PUT
          public async void likePost(int id)
     {
-        string url = $"{baseAPI}/api/post/like/{id}";
+        string url = $"api/post/like/{id}";
         await http.PutAsJsonAsync(url, "");
     }
 
          public async void dislikePost(int id)
     {
-        string url = $"{baseAPI}/api/post/dislike/{id}";
+       string url = $"api/post/dislike/{id}";
         await http.PutAsJsonAsync(url, "");
     }
 
          public async void likeComment(int id)
     {
-        string url = $"{baseAPI}/api/Comment/like/{id}";
+        string url = $"api/Comment/like/{id}";
         await http.PutAsJsonAsync(url, "");
     }
         public async void dislikeComment(int id)
     {
-        string url = $"{baseAPI}/api/Comment/dislike/{id}";
+        string url = $"api/Comment/dislike/{id}";
        await http.PutAsJsonAsync(url, "");
     }
 
