@@ -4559,6 +4559,39 @@
         }
       },
       {
+        "HashCode": -556032201,
+        "Kind": "Components.Component",
+        "Name": "client.App",
+        "AssemblyName": "client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "client.App"
+        }
+      },
+      {
+        "HashCode": -2044095038,
+        "Kind": "Components.Component",
+        "Name": "client.App",
+        "AssemblyName": "client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "client.App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "client.App",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": -644107692,
         "Kind": "Components.EventHandler",
         "Name": "onfocus",
