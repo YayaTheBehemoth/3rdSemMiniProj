@@ -17,8 +17,8 @@ namespace client.Service;
     }
     //GET
     public async Task<Post[]> GetPosts()
-    {
-        string url = $"{baseAPI}/api/Frontpage";
+    {   string url = "api/Frontpage";
+        //string url = $"{baseAPI}/api/Frontpage";
         return await http.GetFromJsonAsync<Post[]>(url);
     }
 
